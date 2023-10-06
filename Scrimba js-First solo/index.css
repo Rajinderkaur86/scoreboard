@@ -1,0 +1,65 @@
+body {
+  /* font-family: "JetBrains Mono", monospace; */
+  font-family: "Tektur", cursive;
+  margin: 0;
+  background-image: url(basketball.jpg);
+  background-size: cover;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+p {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  color: #93b1a6;
+  background-color: #183d3d;
+}
+button {
+  background-color: #662549;
+  color: #f78ca2;
+  border: solid 0.1rem #f78ca2;
+  padding: 0.7rem 1rem;
+  border-radius: 0.3rem;
+  margin-right: 0.3rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.container {
+  background-color: #662549;
+  max-width: 50%;
+  margin: 5rem auto;
+  padding: 3rem;
+  border: solid 0.2rem #f78ca2;
+  border-radius: 0.5rem;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.scoreContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.btnContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.newGameBtn {
+  display: block;
+  margin: 3rem auto 0;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  border: solid 0.2rem black;
+}
+.newGameBtn:hover {
+  opacity: 0.4;
+}

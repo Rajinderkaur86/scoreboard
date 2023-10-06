@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Tektur&family=Tourney:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="titleContainer">
+        <div>
+          <h3>HOME</h3>
+        </div>
+        <div>
+          <h3>GUEST</h3>
+        </div>
+      </div>
+      <div class="scoreContainer">
+        <div>
+          <p id="homeScore">0</p>
+        </div>
+        <div>
+          <p id="guestScore">0</p>
+        </div>
+      </div>
+      <div class="btnContainer">
+        <div>
+          <button onclick="homeIncre1()">+1</button>
+          <button onclick="homeIncre2()">+2</button>
+          <button onclick="homeIncre3()">+3</button>
+        </div>
+        <div>
+          <button onclick="guestIncre1()">+1</button>
+          <button onclick="guestIncre2()">+2</button>
+          <button onclick="guestIncre3()">+3</button>
+        </div>
+      </div>
+      <button class="newGameBtn" onclick="newGame()">New Game</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
